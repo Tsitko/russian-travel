@@ -1,26 +1,26 @@
 .lead__image{
-    width: 984px;
+    max-width: 984px;
     margin-top: 64px;
     align-self: center;
 }
 
-@media screen and (max-width: 1024) {
+@media screen and (max-width: 1024px) {
     .lead__image{
         margin-top: 56px;
         width: 928px;
     }
 }
 
-@media screen and (max-width: 768) {
+@media screen and (max-width: 768px) {
     .lead__image{
         margin-top: 56px;
-        width: 100%;
+        max-width: 768px;
     }
 }
 
-@media screen and (max-width: 320) {
+@media screen and (max-width: 320px) {
     .lead__image{
         margin-top: 40px;
-        width: 100%;
+        max-width: 320px;
     }
 }
