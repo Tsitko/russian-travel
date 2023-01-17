@@ -2,25 +2,26 @@
     max-width: 984px;
     margin-top: 64px;
     align-self: center;
+    max-width: 100%;
 }
 
 @media screen and (max-width: 1024px) {
     .lead__image{
         margin-top: 56px;
-        width: 928px;
+        max-width: 100%;
     }
 }
 
 @media screen and (max-width: 768px) {
     .lead__image{
         margin-top: 56px;
-        max-width: 768px;
+        max-width: 100%;
     }
 }
 
 @media screen and (max-width: 320px) {
     .lead__image{
         margin-top: 40px;
-        max-width: 320px;
+        max-width: 100%;
     }
 }

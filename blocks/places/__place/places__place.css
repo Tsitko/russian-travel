@@ -1,0 +1,47 @@
+.places__place{
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: auto repeat(2,calc(460px/2));
+    padding: 0;
+    margin: 0;
+    column-gap: 40px;
+    row-gap: 48px;
+}
+
+@media screen and (max-width: 1024px) {
+    .places__place{
+        grid-template-rows: auto repeat(2,calc(440px/2));
+        column-gap: 32px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .places__place{
+        grid-template-columns: 40% 60%;
+        grid-template-rows: auto repeat(2,calc(340px/2));
+        column-gap: 28px;
+    }
+}
+
+/* для моего телефона :) */
+@media screen and (max-width: 420px) {
+    .places__place{
+        display: grid;
+        grid-template-columns: 100%;
+        grid-template-rows: auto auto 100px auto;
+        padding: 0;
+        margin: 0;
+        row-gap: 32px;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    .places__place{
+        display: grid;
+        grid-template-columns: 100%;
+        grid-template-rows: auto auto 100% auto;
+        padding: 0;
+        margin: 0;
+        row-gap: 32px;
+    }
+}

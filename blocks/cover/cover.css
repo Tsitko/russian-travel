@@ -1,0 +1,38 @@
+.cover{
+    display: flex;
+    flex-direction: column;
+    margin: 92px 48px 92px 48px;
+    width: 1184px;
+    height: 740px;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.cover:hover{
+    opacity: 0.5;
+}
+
+@media screen and (max-width: 1024px) {
+    .cover{
+        margin: 92px 0px 92px 0px;
+        width: 100%;
+        height: 640px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .cover{
+        margin: 88px 0px 88px 0px;
+        width: 100%;
+        height: 480px;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    .cover{
+        margin: 66px 0px 66px 0px;
+        width: 100%;
+        height: 200px;
+    }
+}
