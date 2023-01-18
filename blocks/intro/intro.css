@@ -2,18 +2,27 @@
     display: grid;
     grid-template-rows: auto auto auto;
     grid-template-columns: 100%;
-    margin: 64px 148px 0 148px;
+    margin: 80px 442px 0 148px;
     max-width: 690px;
+    width: 100%;
 }
 
 @media screen and (max-width: 1024px) {
     .intro{
-        margin: 56px 48px 0 48px;
+        margin: 75px 48px 0 48px;
     }
 }
 
+@media screen and (max-width: 768px) {
+    .intro{
+        margin: 75px 48px 0 22px;
+    }
+}
+
+
 @media screen and (max-width: 320px) {
     .intro{
+        margin: 50px 10px;
         max-width: 288px;
     }
 }

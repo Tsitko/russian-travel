@@ -2,11 +2,19 @@
     font-weight: 900;
     font-size: 96px;
     line-height: 100px;
+    letter-spacing: -4px;
     text-align: center;
-    margin: auto;
+    margin: 56px auto 0 auto;
     color: #FFFFFF;
     max-width: 720px;
+    width: 100%;
     word-wrap: break-word;
+}
+
+@media screen and (max-width: 1024px) {
+    .lead__title{
+        margin: 0 auto 0 auto;
+    }
 }
 
 @media screen and (max-width: 320px) {
@@ -14,9 +22,7 @@
         font-weight: 900;
         font-size: 40px;
         line-height: 44px;
-        text-align: center;
-        margin: auto;
         color: #FFFFFF;
-        max-width: 100%;
+        letter-spacing: 0px;
     }
 }

@@ -5,15 +5,15 @@
     gap: 18px;
 }
 
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 768px) {
     .footer{
-        margin: 0 0 24px 0;
-        flex-direction: column;
+        margin: 0 0 24px 24px;
     }
 }
 
 @media screen and (max-width: 320px) {
     .footer{
+        margin: 0 0 24px 14px;
         flex-direction: column;
     }
 }

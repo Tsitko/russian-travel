@@ -2,13 +2,18 @@
     font-weight: 900;
     font-size: 54px;
     line-height: 58px;
+    letter-spacing: -4px;
     color: #FFFFFF;
     margin: 0;
+    padding: 0;
 }
+
 
 @media screen and (max-width: 320px) {
     .intro__title{
         font-size: 32px;
         line-height: 35px;
+        letter-spacing: -2px;
+        max-width: 250px;
     }
 }

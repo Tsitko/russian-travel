@@ -3,4 +3,12 @@
     font-size: 18px;
     line-height: 22px;
     color: #FFFFFF;
+    margin: 0;
+    padding: 0;
+}
+
+@media screen and (max-width: 320px) {
+    .place__website-link{
+        margin-left: 14px;
+    }
 }
