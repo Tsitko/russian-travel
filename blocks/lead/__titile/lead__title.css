@@ -15,7 +15,9 @@
     }
 }
 
-@media screen and (max-width: 320px) {
+/* тут вместо 320 делаем 690, чтобы убрать горизонтальный скролл от 321 до 690 */
+
+@media screen and (max-width: 690px) {
     .lead__title{
         font-weight: 900;
         font-size: 40px;

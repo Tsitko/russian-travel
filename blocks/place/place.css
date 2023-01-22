@@ -23,14 +23,19 @@
     }
 }
 
+/* тут вместо 320 делаем 690, чтобы убрать горизонтальный скролл от 321 до 690 */
 
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 690px) {
     .place{
         display: flex;
         flex-direction: column;
         gap: 32px;
     }
-    .place:nth-child(3){
-        margin-top: -25px;
+    .place:nth-child(2){
+        margin-top: 28px;
+    }
+
+    .place:nth-child(5){
+        margin-top: 28px;
     }
 }
