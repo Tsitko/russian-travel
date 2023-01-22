@@ -2,7 +2,6 @@
     font-weight: 900;
     font-size: 72px;
     line-height: 76px;
-    letter-spacing: -4px;
     color: #FFFFFF;
     margin: 0;
     padding: 0;
@@ -12,7 +11,6 @@
     .place__title{
         font-size: 42px;
         line-height: 46px;
-        letter-spacing: -4px;
     }
 }
 

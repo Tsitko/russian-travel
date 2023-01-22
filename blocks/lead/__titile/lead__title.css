@@ -2,13 +2,11 @@
     font-weight: 900;
     font-size: 96px;
     line-height: 100px;
-    letter-spacing: -4px;
     text-align: center;
     margin: 56px auto 0 auto;
     color: #FFFFFF;
     max-width: 720px;
     width: 100%;
-    word-wrap: break-word;
 }
 
 @media screen and (max-width: 1024px) {
@@ -23,6 +21,5 @@
         font-size: 40px;
         line-height: 44px;
         color: #FFFFFF;
-        letter-spacing: 0px;
     }
 }

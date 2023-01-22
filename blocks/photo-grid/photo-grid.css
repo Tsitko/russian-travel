@@ -17,8 +17,8 @@
 @media screen and (max-width: 768px) {
     .photo-grid{
         margin: 88px 24px 0 24px;
-        grid-template-columns: repeat(2, 352px);
-        grid-template-rows: repeat(6, 264px);
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: repeat(6, 1fr);
     }
 }
 
@@ -26,6 +26,7 @@
     .photo-grid{
         margin: 14px 14px 0 14px;
         grid-template-columns: 288px;
-        grid-template-rows: repeat(12, 216px);
+        row-gap: 12px;
+        grid-template-rows: repeat(12, 1fr);
     }
 }

@@ -3,11 +3,13 @@
     flex-direction: column;
     margin: 100px 148px 0 148px;
     gap: 80px;
+    max-width: calc(100% - 2*148px);
 }
 
 @media screen and (max-width: 1024px) {
     .places{
         margin: 110px 48px 0 48px;
+        max-width: calc(100% - 2*48px);
     }
 }
 
@@ -15,13 +17,14 @@
     .places{
         margin: 88px 24px 0 24px;
         gap: 45px;
+        max-width: calc(100% - 2*24px);
     }
 }
 
 @media screen and (max-width: 320px) {
     .places{
-        margin: 20px 0 0 0;
-        max-width: 320px;
+        margin: 64px 0 0 0;
         gap: 25px;
+        max-width: 100%;
     }
 }

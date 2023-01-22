@@ -1,24 +1,13 @@
 .cover__image{
     opacity: 0.3;
     max-width: 1184px;
+    max-width: 100%;
     position: absolute;
     margin-top: 0;
 }
 
 @media screen and (max-width: 1024px) {
     .cover__image{
-        max-width: 1024px;
-    }
-}
-
-@media screen and (max-width: 768px) {
-    .cover__image{
-        max-width: 768px;
-    }
-}
-
-@media screen and (max-width: 320px) {
-    .cover__image{
-        max-width: 320px;
+        max-width: 100%;
     }
 }
