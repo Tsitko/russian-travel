@@ -7,18 +7,18 @@
 
 @media screen and (max-width: 1024px) {
     .lead{
-        margin: 42px 42px 0 42px;
+        margin: 48px 48px 0 48px;
     }
 }
 
 @media screen and (max-width: 768px) {
     .lead{
-        margin: 38px 0 0 0;
+        margin: 46px 0 0 0;
     }
 }
 
 @media screen and (max-width: 320px) {
     .lead{
-        margin:40px 0 0 0;
+        margin-top:40px;
     }
 }

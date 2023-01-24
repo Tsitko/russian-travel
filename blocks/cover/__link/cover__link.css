@@ -10,7 +10,7 @@
     background-size: cover;
     min-height: 740px;
     z-index: 1;
-    margin: 92px 0px 92px 0px;
+    margin: 92px 48px 80px 48px;
   }
   
   .cover__link::before {
@@ -32,6 +32,7 @@
 
 @media screen and (max-width: 1024px) {
     .cover__link{
+        margin: 100px 0 100px 0;
         max-width: 100%;
         min-height: 640px;
     }

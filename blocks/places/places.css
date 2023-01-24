@@ -8,14 +8,15 @@
 
 @media screen and (max-width: 1024px) {
     .places{
-        margin: 110px 48px 0 48px;
+        margin: 88px 48px 0 48px;
         max-width: calc(100% - 2*48px);
+        gap: 65px;
     }
 }
 
 @media screen and (max-width: 768px) {
     .places{
-        margin: 88px 24px 0 24px;
+        margin: 88px 0px 0 24px;
         gap: 45px;
         max-width: calc(100% - 2*24px);
     }
