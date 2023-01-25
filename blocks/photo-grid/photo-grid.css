@@ -7,14 +7,14 @@
     row-gap: 16px;
 }
 
-@media screen and (max-width: 1024px) {
+@media screen and (max-width: 1279px) {
     .photo-grid{
         grid-template-columns: repeat(3, 1fr);
         grid-template-rows: repeat(4, 1fr);
     }
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 1023px) {
     .photo-grid{
         margin: 88px 24px 0 24px;
         grid-template-columns: repeat(2, 1fr);
@@ -22,7 +22,7 @@
     }
 }
 
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 767px) {
     .photo-grid{
         margin: 14px 14px 0 14px;
         grid-template-columns: 288px;

@@ -4,6 +4,7 @@
     line-height: 18px;
     color: #FFFFFF;
     text-decoration: none;
+    width: fit-content;
 }
 
 @media screen and (max-width: 320px) {
