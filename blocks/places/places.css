@@ -10,22 +10,21 @@
     .places{
         margin: 88px 48px 0 48px;
         max-width: calc(100% - 2*48px);
-        gap: 56px;
     }
 }
 
 @media screen and (max-width: 768px) {
     .places{
-        margin: 88px 0px 0 24px;
-        gap: 45px;
+        margin: 92px 0px 0 24px;
+        gap: 68px;
         max-width: calc(100% - 2*24px);
     }
 }
 
 @media screen and (max-width: 320px) {
     .places{
-        margin: 64px 0 0 0;
-        gap: 24px;
+        margin: 64px 2px 0 0;
+        gap: 48px;
         max-width: 100%;
     }
 }
