@@ -6,7 +6,7 @@
     margin: 56px auto 0 auto;
     color: #FFFFFF;
     max-width: 720px;
-    width: 100%;
+    max-width: 95%;
 }
 
 @media screen and (max-width: 1024px) {
