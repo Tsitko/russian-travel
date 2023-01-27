@@ -12,6 +12,6 @@
     .intro__title{
         font-size: 32px;
         line-height: 35px;
-        max-width: calc((250/320)%);
+        max-width: calc(250*100%/320);
     }
 }
