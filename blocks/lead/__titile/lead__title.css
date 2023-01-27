@@ -6,7 +6,6 @@
     margin: 56px auto 0 auto;
     color: #FFFFFF;
     max-width: 720px;
-    max-width: 95%;
 }
 
 @media screen and (max-width: 1024px) {
@@ -15,11 +14,12 @@
     }
 }
 
-/* тут вместо 320 делаем 690, чтобы убрать горизонтальный скролл от 321 до 690 */
+/* тут вместо 320 делаем 720, чтобы убрать горизонтальный скролл от 321 до 690 */
 
-@media screen and (max-width: 690px) {
+@media screen and (max-width: 720px) {
     .lead__title{
         font-size: 40px;
         line-height: 44px;
+        max-width: 95%;
     }
 }
