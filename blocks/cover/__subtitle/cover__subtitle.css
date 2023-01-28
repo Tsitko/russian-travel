@@ -12,6 +12,18 @@
 @media screen and (max-width: 1024px) {
     .cover__subtitle{
         margin-top: 40px;
+        max-width: 35%;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .cover__subtitle{
+        max-width: 48%;
+    }
+}
+
+@media screen and (max-width: 550px) {
+    .cover__subtitle{
         max-width: 95%;
     }
 }
